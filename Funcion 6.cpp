@@ -23,22 +23,25 @@ int main(){
  	suma=numero1+numero2;
 	cin>>suma;
 	cout<<"La suma es:"<<suma;
-}
+	break;}
+
  if(letra==R){
  	resta=numero1-numero2;
 	cin>>resta;
 	cout<<"La resta es:"<<resta;
-}
+	break;}
+	
  if (letra==M){
 	multi=numero1*numero2;
 	cin>>multi;
-	cout<<"La multiplicación es:"<<multi;
-}
+	cout<<"La multiplicaciÃ³n es:"<<multi;
+	break;}
+
  if(letra==D){
 	division=numero1/numero2;
 	cin>>division;
 	cout<<"La division es:"<<division;
-}
+	 break;}
 cout<<"\nToca cualquier tecla para salir";
 cin>>salir;
 return 0;
